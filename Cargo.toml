@@ -1,0 +1,18 @@
+[package]
+name = "facia"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4" 
+env_logger = "0.11.5"
+rayon = "1.7"
+walkdir = {version = "*"}
+clap = { version = "4.1", features = ["derive"] }
+indicatif = {version = "*", features = ["rayon"]}
+dlib-face-recognition = "0.3.2"
+show-image = "=0.14.0"
+image = "^0.24.0"
+wgpu = "=0.17.2"
+rustface = "0.1.7"
+threadpool = "1.8.1"
